@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+main {
+    background: linear-gradient(to right, red, orange, yellow, green);
+    height: 100vh;
+    position: relative;
+}
+
+section {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
