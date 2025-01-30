@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Personagem</title>
+    <link rel="stylesheet" href="estilos/style.css">
+
+    <style>
+        .topo {
+            background-color: grey;
+        }
+
+        .container-topo{
+            background-color: grey;
+        }
+
+        .ATRIBUTES{
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .STATUS{
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .BIO{
+            background-color: grey;
+            display: flex;
+            justify-content: right;
+            align-items: flex-start;
+        }
+        
+        .IMAGE{
+            background-color: grey;
+            display: flex; 
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            align-content: space-evenly;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="topo">
+        <section class="container-topo">
+            <div class="container-nome-personagem">
+                <p>NOME DO PERSONAGEM</p>
+                <input type="text" name="" id="">
+            </div>
+            <div class="container-nome-jogador">
+                <p>NOME DO JOGADOR</p>
+                <input type="text" name="" id="">
+            </div>
+            <div class="container-experiencia">
+                <p>EXPERIÊNCIA</p>
+                <input type="text" name="" id="">              
+            </div>
+            <div class="container-raça">
+                <p>RAÇA</p>
+                <input type="text" name="" id="">
+            </div>
+            <div class="container-classe">
+                <p>CLASSE</p>
+                <input type="text" name="" id="">
+            </div>
+            <div class="container-alinhamento">
+                <p>ALINHAMENTO</p>
+                <input type="text" name="" id=""> 
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <div>
+                <div class="ATRIBUTES">
+                    <p>FOR</p>
+                    <input type="text" name="" id="" required placeholder="FORCA">
+                </div>
+                <div class="ATRIBUTES">
+                    <p>DES</p>
+                    <input type="text" name="" id="" required placeholder="DESTREZA">
+                </div>
+                <div class="ATRIBUTES">
+                    <p>CON</p>
+                    <input type="text" name="" id="" required placeholder="CONSTITUICAO">
+                </div>
+                <div class="ATRIBUTES">
+                    <p>INT</p>
+                    <input type="text" name="" id="" required placeholder="INTELIGENCIA">
+                </div>
+                <div class="ATRIBUTES">
+                    <p>SAB</p>
+                    <input type="text" name="" id="" required placeholder="SABEDORIA">
+                    <DIV class="ATRIBUTES">
+                        <p>CAR</p>
+                        <input type="text" name="" id="" required placeholder="CARISMA">
+                    </DIV>
+                </div> 
+                </div>
+            </section>
+    </main>
+    <div>
+        <div>
+            <div class="STATUS">
+                <p>VIDA</p>
+                <input type="text" name="" id="">
+            </div>
+            <div class="STATUS">
+                <p class="STATUS_A">DEFESA</p>
+                <input type="text" name="" id="">
+            </div>
+            <div class="STATUS">
+                <p>VELOCIDADE</p>
+                <input type="text" name="" id="">
+            </div>
+        </div>
+    </div>
+    <div class="BIO">
+        <h2>
+            BIOGRAFIA
+        </h2>
+        <textarea name="" id="" cols="30" rows="25" required placeholder="HISTORIA DO SEU PERSONAGEM" ></textarea>
+        </div>
+    <div class="IMAGE">
+        <img src="imagens/personagem.png" alt="Imagem de um personagem de RPG">
+    </div>
+</body>
+</html>

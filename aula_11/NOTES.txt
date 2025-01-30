@@ -1,0 +1,10 @@
+HEADER
+ARTICLE
+ASIDE
+FOOTER
+
+div.flex-item
+
+div .(class) flex-item
+
+com DISPLAY FLEX, podemos usar text-align e/ou justify content
